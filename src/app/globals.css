@@ -1,3 +1,71 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+
+:root {
+  --background: #0E0E0E;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+@font-face {
+  font-family: 'HelveticaLight';
+  src: local('Helvetica now display'), local('Helvetica-Light'), 
+      url('../assets/font/HelveticaNowDisplay-Light.woff2') format('woff2'),
+      url('../assets/font/HelveticaNowDisplay-Light.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaBlack';
+  src: local('Helvetica now display'), local('Helvetica-Black'), 
+      url('../assets/font/HelveticaNowDisplay-Black.woff2') format('woff2'),
+      url('../assets/font/HelveticaNowDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'HelveticaMid';
+  src: local('Helvetica now display'), local('Helvetica-Medium'), 
+      url('../assets/font/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+      url('../assets/font/HelveticaNowDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaReg';
+  src: local('Helvetica now display'), local('Helvetica-Regular'), 
+      url('../assets/font/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+      url('../assets/font/HelveticaNowDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-HelveticaLight: 'HelveticaLight';
+  --font-HelveticaBlack: 'HelveticaBlack';
+  --font-HelveticaMid: 'HelveticaMid';
+  --font-HelveticaReg: 'HelveticaReg';
+}
+
+body{
+  background: #f8f8f8;
+}
+
+.red-test {
+  color: red !important;
+}
