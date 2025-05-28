@@ -55,9 +55,20 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'HelveticaBold';
+  src: local('Helvetica now display'), local('Helvetica-Bold'), 
+      url('../assets/font/HelveticaNowDisplay-Bold.woff') format('woff2'),
+      url('../assets/font/HelveticaNowDisplay-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-HelveticaLight: 'HelveticaLight';
   --font-HelveticaBlack: 'HelveticaBlack';
+  --font-HelveticaBold: 'HelveticaBold';
   --font-HelveticaMid: 'HelveticaMid';
   --font-HelveticaReg: 'HelveticaReg';
 }
@@ -66,6 +77,3 @@ body{
   background: #f8f8f8;
 }
 
-.red-test {
-  color: red !important;
-}
