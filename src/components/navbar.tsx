@@ -48,7 +48,7 @@ const mobileSearchRef = useRef<HTMLDivElement>(null);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHome]);
 
-  useEffect(() => {
+useEffect(() => {
   if (menuOpen && menuRef.current) {
     gsap.to(menuRef.current, {
       height: 0,
@@ -59,7 +59,8 @@ const mobileSearchRef = useRef<HTMLDivElement>(null);
     });
     setMenuOpen(false);
   }
-}, [pathname, menuOpen]); 
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, [pathname]);
 
 
   const toggleMenu = () => {
