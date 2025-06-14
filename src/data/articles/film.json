@@ -1,0 +1,114 @@
+[
+  {
+    "id": "fi1",
+    "slug": "nollywood-neo-noir",
+    "title": "Nollywood Goes Neo-Noir",
+    "date": "2025-05-30",
+    "excerpt": "From soap operas to cinematic shadows — a new era of storytelling begins.",
+    "coverImage": "/asset/Film/3D-Movie-Theater.jpeg",
+    "content":[ {
+      "section1": [
+        "With low-key lighting, crime plots, and morally gray characters, Nollywood enters its dark age — in a good way...",
+        "Nollywood is evolving, shedding its melodramatic roots for a grittier, more complex narrative style."
+      ],
+      "section2": [
+        "Nollywood is stepping into the shadows with a wave of neo-noir films that blend traditional storytelling with gritty, urban aesthetics.",
+        "These films explore complex characters and dark themes, moving away from the melodrama that has long defined the industry.",
+        "With influences from classic noir and contemporary thrillers, filmmakers are crafting stories that are as visually striking as they are narratively compelling."
+      ]
+    }]
+  },
+  {
+    "id": "fi2",
+    "slug": "african-sci-fi-films",
+    "title": "Sci-Fi Through the African Lens",
+    "date": "2025-05-15",
+    "excerpt": "Spaceships, spirit worlds, and coded futures from the motherland.",
+    "coverImage": "/asset/Film/Cinematic-Motion.jpeg",
+    "content":[ {
+      "section1": [
+        "Filmmakers are blending myth, tech, and dystopia to create something wholly new...",
+        "African sci-fi is not just about aliens and robots; it’s a rich tapestry of culture, mythology, and futuristic visions."
+      ],
+      "section2": [
+        "African sci-fi is breaking boundaries, exploring futuristic themes through the lens of African culture and mythology.",
+        "From speculative fiction to cyberpunk, filmmakers are crafting narratives that reflect the continent's unique experiences and aspirations.",
+        "These films challenge stereotypes and offer fresh perspectives on technology, identity, and the future, showcasing Africa's rich storytelling tradition in a new light."
+      ]
+    }]
+  },
+  {
+    "id": "fi3",
+    "slug": "documentary-wave-nigeria",
+    "title": "The New Documentary Wave",
+    "date": "2025-04-27",
+    "excerpt": "Nigerian filmmakers are telling the truth — beautifully.",
+    "coverImage": "/asset/Film/Contemplative-Woman.jpeg",
+    "content": [{
+      "section1": [
+        "With raw storytelling and high production, docs are finally cool again...",
+        "Nigerian filmmakers are embracing documentary filmmaking as a powerful medium for storytelling and social commentary."
+      ],
+      "section2": [
+        "Nigerian filmmakers are using documentary as a tool for social change, shedding light on pressing issues and giving voice to the marginalized.",
+        "This new wave of documentaries is characterized by a commitment to authenticity and a desire to challenge the status quo."
+      ]
+    }]
+  },
+  {
+    "id": "fi4",
+    "slug": "lagos-film-scoring",
+    "title": "Scoring Lagos: The Rise of African Film Composers",
+    "date": "2025-04-02",
+    "excerpt": "The background music is finally stealing the scene.",
+    "coverImage": "/asset/Film/Contemplative.jpeg",
+    "content": [{
+      "section1": [
+        "Soundtracks now match emotions with violins, shekeres, and synths...",
+        "Lagos is home to a new generation of film composers who are redefining the sound of African cinema."
+      ],
+      "section2": [
+        "Lagos is becoming a hub for innovative film scoring, with composers blending traditional African sounds with contemporary music styles.",
+        "These composers are not just creating background music; they’re crafting soundscapes that enhance the storytelling and evoke deep emotional responses.",
+        "From orchestral arrangements to electronic beats, the music of Lagos films is as diverse and dynamic as the city itself."
+      ]
+    }]
+  },
+  {
+    "id": "fi5",
+    "slug": "female-directors-nollywood",
+    "title": "The Women Behind the Lens",
+    "date": "2025-03-12",
+    "excerpt": "Female directors are shaping the future of African cinema.",
+    "coverImage": "/asset/Film/Cozy-Movie.jpeg",
+    "content": [{
+      "section1": [
+        "They’re telling stories with honesty, intimacy, and raw fire...",
+        "Female directors are bringing new perspectives and narratives to Nollywood, challenging the status quo and pushing boundaries."
+      ],
+      "section2": [
+        "Nollywood is witnessing a surge of female directors who are not only breaking into the industry but also making their mark with powerful stories and unique perspectives.",
+        "These filmmakers are tackling issues like gender inequality, representation, and social justice, using their art to spark conversations and drive change."
+      ]
+    }]
+  },
+  {
+    "id": "fi6",
+    "slug": "film-students-next-gen",
+    "title": "Film Students Are Changing Nollywood",
+    "date": "2025-02-25",
+    "excerpt": "Fresh eyes, bold takes — meet the new storytellers.",
+    "coverImage": "/asset/Film/Inferno-Velocity.jpeg",
+    "content": [{
+      "section1": [
+        "Armed with iPhones and vision, the youth aren’t waiting for permission...",
+        "A new generation of film students is emerging, bringing fresh perspectives and innovative ideas to Nollywood."
+      ],
+      "section2": [
+        "These students are not only learning the craft but also challenging the norms, experimenting with new formats, and telling stories that resonate with their generation.",
+        "With a focus on authenticity and representation, they are paving the way for a more inclusive and diverse Nollywood."
+      ]
+
+    }]
+  }
+]

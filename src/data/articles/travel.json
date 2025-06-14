@@ -1,0 +1,111 @@
+[
+  {
+    "id": "t1",
+    "slug": "hidden-gems-nigeria",
+    "title": "Hidden Gems in Nigeria You’ve Never Heard Of",
+    "date": "2025-05-22",
+    "excerpt": "Skip the tourist traps — go local, go magical.",
+    "coverImage": "/asset/travel/Colorful-Cobbled.jpeg",
+    "content": [{
+      "section1": [
+        "From Erin-Ijesha to Osun Sacred Grove, nature and heritage collide in stunning silence...",
+        "These hidden gems offer a glimpse into Nigeria's rich cultural tapestry, away from the bustling crowds."
+      ],
+      "section2": [
+        "Nigeria is a treasure trove of hidden gems waiting to be discovered. From the serene waterfalls of Erin-Ijesha to the sacred Osun Grove, these lesser-known destinations offer a unique blend of natural beauty and cultural heritage.",
+        "Exploring these hidden gems allows travelers to connect with local communities, experience authentic traditions, and immerse themselves in the rich tapestry of Nigeria's diverse landscapes."
+      ]
+    }]
+  },
+  {
+    "id": "t2",
+    "slug": "african-eco-travel",
+    "title": "The Rise of Eco-Travels in Africa",
+    "date": "2025-05-02",
+    "excerpt": "Less carbon, more culture: sustainable is the new luxury.",
+    "coverImage": "/asset/travel/Contemplative-Hiker.jpeg",
+    "content": [{
+      "section1": [
+        "Stay in bamboo lodges, eat from community farms, and leave no footprint...",
+        "Eco-travel in Africa is not just a trend; it’s a lifestyle choice that prioritizes sustainability and cultural immersion."
+      ],
+      "section2": [
+        "Eco-travel in Africa is not just a trend; it’s a movement towards sustainable tourism that respects the environment and supports local communities.",
+        "From eco-lodges in the Serengeti to community-based tourism in Madagascar, travelers are seeking experiences that minimize their impact on the planet while maximizing cultural immersion.",
+        "This shift towards eco-conscious travel is reshaping the tourism industry, promoting conservation efforts, and empowering local communities to thrive."
+      ]
+    }]
+  },
+  {
+    "id": "t3",
+    "slug": "black-digital-nomads",
+    "title": "The Digital Nomad Life in Africa",
+    "date": "2025-04-12",
+    "excerpt": "Young Black creatives are redefining work and wanderlust.",
+    "coverImage": "/asset/travel/Expendition-Comrades.jpeg",
+    "content": [{
+      "section1": [
+        "Think fiber internet in Ghana, coworking in Kigali, and ocean views in Zanzibar...",
+        "Digital nomadism is not just about travel; it’s about creating a lifestyle that blends work, culture, and adventure."
+      ],
+      "section2": [
+        "Digital nomadism is on the rise in Africa, with young Black creatives leading the charge.",
+        "They are leveraging technology to work remotely while exploring the continent's diverse cultures and landscapes."
+      ]
+    }]
+  },
+  {
+    "id": "t4",
+    "slug": "afro-luxury-escape",
+    "title": "Afro-Luxury: Escaping in Style",
+    "date": "2025-03-26",
+    "excerpt": "Helicopters, chef-prepped plantains, and vibes in remote islands.",
+    "coverImage": "/asset/travel/Ocean-Serenity.jpeg",
+    "content": [{
+      "section1": [
+        "Luxury travel has found its African flavor — and it tastes like elegance with soul...",
+        "From private villas in the Seychelles to exclusive safaris in South Africa, the continent is redefining luxury."
+      ],
+      "section2": [
+        "Afro-luxury is not just about opulence; it's about authenticity and connection to the land.",
+        "Travelers are seeking experiences that go beyond the surface, engaging with local cultures and communities."
+      ]
+    }]
+  },
+  {
+    "id": "t5",
+    "slug": "nigerian-street-food-trails",
+    "title": "Street Food Trails Across Nigeria",
+    "date": "2025-03-03",
+    "excerpt": "From suya to boli: follow your stomach to culture.",
+    "coverImage": "/asset/travel/Scenic-Mountain.jpeg",
+    "content": [{
+      "section1": [
+        "If food is the passport, Nigerian streets are the visa stamps...",
+        "Follow your stomach to discover the rich tapestry of flavors that define Nigeria's culinary landscape."
+      ],
+      "section2": [
+        "Street food is more than just a meal; it's a cultural experience that brings people together.",
+        "From bustling markets to roadside stalls, the vibrant food scene in Nigeria reflects the country's diverse cultures and traditions."
+      ]
+    }]
+  },
+  {
+    "id": "t6",
+    "slug": "roadtrip-west-africa",
+    "title": "Road Tripping Through West Africa",
+    "date": "2025-02-18",
+    "excerpt": "Music, movement, and magic on the road.",
+    "coverImage": "/asset/travel/Timeless-Elegance.jpeg",
+    "content": [{
+      "section1": [
+        "One van. Five friends. Ten cities. Unlimited stories...",
+        "The open road is calling, and adventure awaits at every turn."
+      ],
+      "section2": [
+        "Road tripping through West Africa is not just about the destination; it's about the journey.",
+        "Each city offers a unique blend of culture, music, and cuisine, making every stop an adventure."
+      ]
+    }]
+  }
+]

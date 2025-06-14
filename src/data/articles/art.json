@@ -1,0 +1,113 @@
+[
+  {
+    "id": "a1",
+    "slug": "digital-art-africa",
+    "title": "Digital Art is Thriving in Africa",
+    "date": "2025-05-11",
+    "excerpt": "NFTs were just the start — now digital art is culture.",
+    "coverImage": "/asset/art/Abstract-Blurred.jpeg",
+    "content": [{
+      "section1": [
+        "From vibrant digital canvases to immersive VR experiences, African artists are redefining the digital landscape. The continent is not just catching up; it’s leading with innovation and cultural depth.",
+        "Digital art in Africa is a fusion of tradition and technology, where artists use pixels to paint stories that resonate globally. The rise of NFTs has opened new avenues for creators, allowing them to monetize their work while reaching audiences far beyond local borders."
+      ],
+      "section2": [
+        "The digital art scene is thriving in cities like Lagos, Nairobi, and Johannesburg, where tech hubs and creative spaces are nurturing talent.",
+        "Collaborations between artists and technologists are pushing the boundaries of what's possible, resulting in groundbreaking works that challenge perceptions and spark conversations."
+      ]
+    }]
+  },
+  {
+    "id": "a2",
+    "slug": "street-art-lagos",
+    "title": "The Streets of Lagos Are a Gallery",
+    "date": "2025-04-28",
+    "excerpt": "Graffiti meets folklore meets politics — raw and real.",
+    "coverImage": "/asset/art/Art-Observers.jpeg",
+    "content":[ {
+      "section1": [
+        "Walls talk in Lagos, and the stories are powerful, loud, and unfiltered...",
+        "Street art is a canvas for social commentary, blending traditional African motifs with contemporary issues."
+      ],
+      "section2": [
+        "Murals depicting local heroes, political struggles, and cultural pride are transforming the urban landscape.",
+        "Artists are reclaiming public spaces, turning the streets into a vibrant gallery that reflects the city's heartbeat."
+      ]
+    }]
+  },
+  {
+    "id": "a3",
+    "slug": "contemporary-african-art",
+    "title": "What Is Contemporary African Art Today?",
+    "date": "2025-04-05",
+    "excerpt": "More than masks and tradition — it’s boundary-pushing brilliance.",
+    "coverImage": "/asset/art/Artistic-Havoc.jpeg",
+    "content": [{
+      "section1": [
+        "Photography, sculpture, performance — artists are doing it all. No labels needed...",
+        "Contemporary African art is a vibrant tapestry woven from the continent's diverse cultures, histories, and experiences."
+      ],
+      "section2": [
+        "Contemporary African art is a dynamic blend of influences, styles, and mediums. It’s a movement that defies categorization, where artists draw from their rich heritage while embracing global trends.",
+        "From the intricate beadwork of South Africa to the bold installations of Nigeria, contemporary African art is a celebration of diversity and innovation. It challenges stereotypes and invites viewers to engage with complex narratives that reflect the continent's realities."
+      ]
+    }]
+  },
+  {
+    "id": "a4",
+    "slug": "feminist-art-nigeria",
+    "title": "The Feminist Art Movement in Nigeria",
+    "date": "2025-03-15",
+    "excerpt": "Art as protest, poetry, and power.",
+    "coverImage": "/asset/art/Artistic-Muse.jpeg",
+    "content":[ {
+      "section1": [
+        "These women aren’t just painting — they’re calling out, calling up, and calling in...",
+        "The feminist art movement in Nigeria is a powerful force, using creativity to challenge patriarchal norms and advocate for gender equality."
+      ],
+      "section2": [
+        "The feminist art movement in Nigeria is a powerful force, using creativity to challenge patriarchal norms and advocate for gender equality.",
+        "Artists are using their platforms to address issues such as domestic violence, reproductive rights, and representation in the arts.",
+        "Through bold installations, provocative performances, and thought-provoking exhibitions, these artists are sparking conversations that resonate far beyond the gallery walls."
+      ]
+    }]
+  },
+  {
+    "id": "a5",
+    "slug": "art-fairs-africa",
+    "title": "Africa’s Art Fairs Are World-Class",
+    "date": "2025-03-01",
+    "excerpt": "Lagos, Dakar, Joburg — the continent is curating excellence.",
+    "coverImage": "/asset/art/Chaotic-Explosion.jpeg",
+    "content": [{
+      "section1": [
+        "The market is hot, the collectors are coming, and the artists are ready...",
+        "Africa's art fairs are not just events; they are cultural phenomena that showcase the continent's artistic prowess on a global stage."
+      ],
+      "section2": [
+        "Africa's art fairs are not just events; they are cultural phenomena that showcase the continent's artistic prowess on a global stage.",
+        "From the bustling streets of Lagos to the vibrant galleries of Dakar, these fairs attract collectors, curators, and art enthusiasts from around the world.",
+        "They provide a platform for emerging artists to gain visibility and for established names to solidify their presence in the international art scene."
+      ]
+    }]
+  },
+  {
+    "id": "a6",
+    "slug": "young-african-illustrators",
+    "title": "The Young Illustrators Shaping Africa’s Aesthetic",
+    "date": "2025-02-10",
+    "excerpt": "Color, fantasy, and heritage in every brushstroke.",
+    "coverImage": "/asset/art/Dynamic-Symmetry.jpg",
+    "content": [{
+      "section1": [
+        "These digital warriors are telling Afro stories with precision and passion...",
+        "Young African illustrators are redefining the visual narrative of the continent, blending traditional motifs with modern aesthetics."
+      ],
+      "section2": [
+        "Young African illustrators are redefining the visual narrative of the continent, blending traditional motifs with modern aesthetics.",
+        "Their work is a celebration of culture, identity, and innovation, often drawing inspiration from folklore, mythology, and everyday life.",
+        "Through vibrant colors and intricate details, these artists are creating a new visual language that resonates with both local and global audiences."
+      ]
+    }]
+  }
+]

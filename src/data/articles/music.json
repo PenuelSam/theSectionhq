@@ -1,0 +1,111 @@
+[
+  {
+    "id": "m1",
+    "slug": "alte-genres-evolving",
+    "title": "The Evolution of Alté",
+    "date": "2025-05-28",
+    "excerpt": "Alté isn’t a genre, it’s a state of mind — and it's growing.",
+    "coverImage": "/asset/Music/Dynamic-Live.jpeg",
+    "content": [{
+      "section1": [
+        "From Santi to Ayra Starr, Alté is now more cinematic, more introspective, and globally loved...",
+        "The visuals are just as important as the music, with artists crafting immersive experiences that draw viewers in."
+      ],
+      "section2": [
+        "Alté is evolving beyond its roots, embracing new sounds and styles while maintaining its core ethos of creativity and individuality.",
+        "Artists are experimenting with genres, blending Afrobeats with indie, R&B, and electronic influences to create a sound that is uniquely their own.",
+        "This evolution is not just musical; it’s a cultural movement that celebrates diversity, self-expression, and the breaking of traditional boundaries in Nigerian music."
+      ]
+    }]
+  },
+  {
+    "id": "m2",
+    "slug": "afrobeats-to-the-world",
+    "title": "Afrobeats Goes Global",
+    "date": "2025-05-10",
+    "excerpt": "Afrobeats isn’t a trend anymore — it’s the moment.",
+    "coverImage": "/asset/Music/Engrossed-Musician.jpeg",
+    "content": [{
+      "section1": [
+        "With Burna and Wiz opening Grammy doors, young talent is now flooding the global scene...",
+        "Collaborations with international artists are becoming more common, further bridging the gap between African music and the global stage."
+      ],
+      "section2": [
+        "Afrobeats has transcended its local roots to become a global phenomenon, with artists like Burna Boy and Wizkid leading the charge.",
+        "Their music is now a staple on international playlists, and they are collaborating with top global artists."
+      ]
+    }]
+  },
+  {
+    "id": "m3",
+    "slug": "females-in-nigerian-music",
+    "title": "The Rise of Women in Nigerian Music",
+    "date": "2025-04-21",
+    "excerpt": "Women are rewriting the sonic story of Nigeria — louder than ever.",
+    "coverImage": "/asset/Music/Guitarist-On-Stage.jpeg",
+    "content": [{
+      "section1": [
+        "Tems didn’t just sing — she opened doors for new voices. Now it’s a chorus...",
+        "The visuals are just as important as the music, with artists crafting immersive experiences that draw viewers in."
+      ],
+      "section2": [
+        "From Tems to Ayra Starr, female artists are now at the forefront of the Nigerian music scene, pushing boundaries and redefining genres.",
+        "These artists are not just making music; they are making statements, using their platforms to address social issues, celebrate their identities, and inspire a new generation of musicians."
+      ]
+    }]
+  },
+  {
+    "id": "m4",
+    "slug": "indie-labels-naija",
+    "title": "Indie Labels Are the New Powerhouses",
+    "date": "2025-04-03",
+    "excerpt": "Forget majors — the underground is making stars.",
+    "coverImage": "/asset/Music/Guitarist-Studio.jpeg",
+    "content": [{
+      "section1": [
+        "From The Plug to Chocolate City 2.0, indie labels are signing heat before the heat goes viral...",
+        "These labels are not just about music; they are about culture, community, and creating spaces for artists to thrive."
+      ],
+      "section2": [
+        "Indie labels are also taking a more hands-on approach to artist development, providing resources and support that were previously unavailable.",
+        "This shift is empowering a new generation of musicians to take control of their careers and redefine what success looks like in the industry."
+      ]
+    }]
+  },
+  {
+    "id": "m5",
+    "slug": "sound-engineering-naija",
+    "title": "The Unsung Heroes: Nigerian Sound Engineers",
+    "date": "2025-03-19",
+    "excerpt": "Behind every hit is a quiet genius tuning every bass drop.",
+    "coverImage": "/asset/Music/Introspective-Listening.jpeg",
+    "content": [{
+      "section1": [
+        "They're not in the spotlight, but they shape what the world hears...",
+        "Nigerian sound engineers are the backbone of the music industry, crafting the sonic landscapes that define hits and elevate performances."
+      ],
+      "section2": [
+        "Nigerian sound engineers are pushing the boundaries of music production, experimenting with new techniques and technologies to create unique sounds.",
+        "Their work is often behind the scenes, but it is essential to the success of many artists and the overall sound of the industry."
+      ]
+    }]
+  },
+  {
+    "id": "m6",
+    "slug": "music-videos-aesthetics",
+    "title": "The Rise of Music Video Aesthetics",
+    "date": "2025-03-01",
+    "excerpt": "Why Nigerian music videos are becoming global visual trends.",
+    "coverImage": "/asset/Music/Joyful-Dance.jpeg",
+    "content": [{
+      "section1": [
+        "Call it the MTV renaissance, but with more swag, art direction, and Afrofuture dreams...",
+        "The visuals are just as important as the music, with artists crafting immersive experiences that draw viewers in."
+      ],
+      "section2": [
+        "Nigerian music videos are becoming known for their high production values, creative storytelling, and bold visuals.",
+        "Directors and cinematographers are pushing the envelope, experimenting with new techniques and styles to create visually stunning works of art."
+      ]
+    }]
+  }
+]

@@ -65,15 +65,50 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'BomberUrban';
+  src: local('Bomber Urban Regular'), local('Bomber-Urban-Regular'), 
+      url('../assets/font/bomberurbanregular-8m1ym-webfont.woff2') format('woff2'),
+      url('../assets/font/bomberurbanregular-8m1ym-webfont.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mtvgravity';
+  src: local('mtvgravity regular'), local('mtvgravity-regular'), 
+      url('../assets/font/mtvgravitygroteskext-medium-webfont.woff2') format('woff2'),
+      url('../assets/font/mtvgravitygroteskext-medium-webfont.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @theme {
   --font-HelveticaLight: 'HelveticaLight';
   --font-HelveticaBlack: 'HelveticaBlack';
   --font-HelveticaBold: 'HelveticaBold';
   --font-HelveticaMid: 'HelveticaMid';
   --font-HelveticaReg: 'HelveticaReg';
+  --font-BomberUrban: 'BomberUrban';
+  --font-mtvgravity: 'mtvgravity';
 }
 
 body{
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
+  background: #fff
 }
+
+
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 50000ms linear infinite;
+}
+
 
