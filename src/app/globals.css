@@ -6,6 +6,16 @@
   --foreground: #171717;
 }
 
+/* In your global CSS (e.g., globals.css or a new utilities file) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -110,5 +120,7 @@ body{
   white-space: nowrap;
   animation: marquee 50000ms linear infinite;
 }
+
+
 
 

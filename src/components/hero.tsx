@@ -10,7 +10,7 @@ export default async function Hero() {
 
       return (
     <div className='container mt-32 mb-10  w-full h-full mx-auto px-4 md:px-8'>
-      <div>
+      <div className='block md:hidden'>
         <h1 className='md:text-[80px] text-[40px] text-center font-HelveticaBold text-[#333] leading-[40px] md:leading-[80px] uppercase tracking-tighter md:py-10 py-5 mb-5'>Section Studio</h1>
       </div>
 

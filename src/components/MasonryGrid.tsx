@@ -1,16 +1,30 @@
-type MasonryGridProps = {
-    children: React.ReactNode;
-    columns?: number;
-}
+import React, { forwardRef } from "react";
 
-export default function MasonryGrid({ children, columns = 3 }: MasonryGridProps) {
+type MasonryGridProps = {
+  children: React.ReactNode;
+  columns?: number;
+  className?: string;
+  style?: React.CSSProperties;
+};
+
+const MasonryGrid = forwardRef<HTMLDivElement, MasonryGridProps>(
+  ({ children, columns = 3, className = "", style = {} }, ref) => {
     return (
-        <div className="gap-2 [column-gap:1.5rem]"
-            style={{
-                columnCount: columns,
-                columnGap: '1.5rem',
-            }}>
-            {children}
-        </div>
+      <div
+        ref={ref}
+        className={`gap-2 [column-gap:1.5rem] ${className}`}
+        style={{
+          columnCount: columns,
+          columnGap: "1.5rem",
+          ...style,
+        }}
+      >
+        {children}
+      </div>
     );
-}
+  }
+);
+
+MasonryGrid.displayName = "MasonryGrid";
+
+export default MasonryGrid;

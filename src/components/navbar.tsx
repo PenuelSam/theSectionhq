@@ -1,5 +1,5 @@
 "use client";
-import { useLayoutEffect, useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import gsap from "gsap";
 import Image from "next/image";
@@ -14,6 +14,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 const searchInputRef = useRef<HTMLInputElement>(null);
 const searchWrapperRef = useRef<HTMLDivElement>(null);
@@ -23,18 +24,29 @@ const mobileSearchRef = useRef<HTMLDivElement>(null);
   const isHome = pathname === "/";
 
   // Animate navbar entrance
-  useLayoutEffect(() => {
-    gsap.fromTo(
-      navRef.current,
-      { y: -100, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1.2,
-        ease: "power3.out",
-      }
-    );
-  }, []);
+  // useLayoutEffect(() => {
+  //   gsap.fromTo(
+  //     navRef.current,
+  //     { y: -100, opacity: 0 },
+  //     {
+  //       y: 0,
+  //       opacity: 1,
+  //       duration: 1.2,
+  //       ease: "power3.out",
+  //     }
+  //   );
+  // }, []);
+
+
+  useEffect(() => {
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+
+  handleResize(); // Initial check
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
 
   // Listen for scroll on home only
   useEffect(() => {
@@ -143,8 +155,11 @@ const toggleSearch = () => {
 
   // Determine navbar styling
   const showGloss = isHome ? scrolled : true;
-  const topOffset = isHome && !scrolled ? "top-[40px]" : "top-0";
-  const menudisplay = isHome ? scrolled : true;
+ const topOffset = isHome && !scrolled && isMobile ? "top-[40px]" : "top-0";
+ const menudisplay = isHome ? scrolled : true;
+ const menuTopClass = isMobile
+  ? (menudisplay ? 'top-[50px]' : 'top-[100px]')
+  : 'top-[60px]';
 
   const navLinks = [   
     {
@@ -183,7 +198,7 @@ const toggleSearch = () => {
       {isHome && (
         <div
           ref={marqueeRef}
-          className={`fixed top-0 w-full z-[998] h-[40px] bg-black text-white overflow-hidden transition-all duration-500 ${
+          className={`fixed top-0 w-full z-[998] h-[40px] bg-black text-white overflow-hidden block md:hidden transition-all duration-500 ${
             scrolled ? "-translate-y-full" : "translate-y-0"
           }`}
         >
@@ -216,7 +231,7 @@ const toggleSearch = () => {
         <div className='w-full '>
           <MenuToggle open={menuOpen} toggle={toggleMenu} />
         </div>
-      <div className='w-full  flex justify-center'>
+      <div className='w-[200px]  flex justify-center'>
 
         <Link href={`/`}>
         <Image
@@ -224,6 +239,8 @@ const toggleSearch = () => {
           alt="logo"
           width={100}
           height={100}
+           className="w-[200px] h-auto"
+            priority
         />
         </Link>
       </div>
@@ -263,7 +280,7 @@ const toggleSearch = () => {
       {/* Mobile Search Input - slides in below navbar */}
 <div
   ref={mobileSearchRef}
-  className={`md:hidden fixed ${menudisplay ?  'top-[60px]' : 'top-[100px]'} left-0 w-full px-4 py-2 bg-black text-white z-[998] opacity-0 pointer-events-none `}
+  className={`md:hidden fixed ${menuTopClass} left-0 w-full px-4 py-2 bg-black text-white z-[998] opacity-0 pointer-events-none `}
 >
   <input
     type="text"
@@ -274,12 +291,12 @@ const toggleSearch = () => {
 
 {/* Backdrop */}
   {menuOpen && (
-    <div className={`fixed ${menudisplay ?  'top-[50px]' : 'top-[100px]'} left-0 right-0 bottom-0 z-[997] bg-black/60 backdrop-blur-sm transition-opacity duration-300`} />
+    <div className={`fixed ${menuTopClass} left-0 right-0 bottom-0 z-[997] bg-black/60 backdrop-blur-sm transition-opacity duration-300`} />
   )}
       {/* Collapsible Menu */}
 <div
   ref={menuRef}
-  className={`fixed ${menudisplay ?  'top-[50px]' : 'top-[100px]'}  left-0 w-full overflow-hidden  bg-black text-white z-[998] opacity-0 pointer-events-none flex flex-row-reverse justify-between py-10 px-5 md:py-5`}
+  className={`fixed ${menuTopClass}  left-0 w-full overflow-hidden  bg-black text-white z-[998] opacity-0 pointer-events-none flex flex-row-reverse justify-between py-10 px-5 md:py-5`}
   style={{ height: 0 }}
 >
   <div className='w-[500px] h-[400px] relative md:block hidden '>
