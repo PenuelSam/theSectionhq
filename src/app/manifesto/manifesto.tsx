@@ -15,7 +15,7 @@ export default function Manifesto() {
       <div>
         <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>We are The <span className='text-[#ff6640]'>Section Studio</span>.</p>
         <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>We cut the noise. Amplify the truth.</p>
-        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>While they&apos;re still debating — you&apos;re already immersed.</p>
+        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>While they&apos;re still debating, you&apos;re already immersed.</p>
       </div>
       <div>
         <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>They&apos;ll call it bold. Maybe even audacious.</p>
@@ -32,11 +32,11 @@ export default function Manifesto() {
         <p>It&apos;s writing the entire new book.</p>
       </div>
       <div>
-        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>Why chase inspiration, follow trends, or wait for permission —
+        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>Why chase inspiration, follow trends, or wait for permission,
             when the global blueprint is being drawn right here?</p>
       </div>
       <div>
-        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>The future&apos;s greatest artists, its defining sounds, its most undeniable visions —
+        <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>The future&apos;s greatest artists, its defining sounds, its most undeniable visions,
 They&apos;re already shaping everything from this continent.</p>
 <p className='text-[16px] text-[#333] font-HelveticaMid md:pr-20 pr-5 pt-1'>The future won&apos;t reward observation. It&apos;ll reward creation.</p>
       </div>
